@@ -126,7 +126,7 @@ export default function Home() {
               variants={itemVariants}
             >
               <h2 className="text-xs sm:text-lg lg:text-xl text-red-400 mb-2 sm:mb-4 font-light tracking-widest uppercase">
-                The 18th Birthday Celebration of
+                The Birthday Celebration of
               </h2>
               
               <div className="my-4 sm:my-8 relative">
