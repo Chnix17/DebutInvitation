@@ -203,8 +203,8 @@ export default function Home() {
                   </div>
                   <h5 className="text-base sm:text-xl font-semibold text-white">Venue</h5>
                 </div>
-                <p className="text-red-100 text-sm sm:text-lg font-medium">Wapay Idea</p>
-                <p className="text-red-300 text-xs sm:text-base">Details to follow</p>
+                <p className="text-red-100 text-sm sm:text-lg font-medium"> Keith Williams, Purok 20 </p>
+                <p className="text-red-300 text-xs sm:text-base">Details to be follow</p>
               </div>
             </motion.div>
 
