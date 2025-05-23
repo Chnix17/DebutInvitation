@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { Heart, Calendar, MapPin, Clock, Sparkles, Gift, ArrowRight } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 import { routes } from './routes';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { Pacifico } from 'next/font/google';
 
 const pacifico = Pacifico({
