@@ -163,7 +163,7 @@ export default function Home() {
         className="relative z-10 min-h-screen flex flex-col items-center justify-center p-3 sm:p-4 lg:p-6"
         variants={containerVariants}
         initial="hidden"
-        animate="visible"
+        animate={isVisible ? "visible" : "hidden"}
       >
         
         {/* Enhanced Modern Header */}

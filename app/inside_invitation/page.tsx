@@ -1,6 +1,6 @@
 "use client"
 import React, { useState } from 'react';
-import { Heart, Sparkles, Gift, Star, Music, Camera, Crown, Flower2, Clock, List } from 'lucide-react';
+import { Sparkles, Star, Flower2, Clock } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 export default function InsideInvitation() {
