@@ -75,8 +75,7 @@ export default function Home() {
     <div className="min-h-screen relative overflow-hidden">
       {/* Rich Background with Ruby/Black Gradient and Gold Glow */}
       <div className="absolute inset-0 bg-gradient-to-br from-black via-red-900 to-black"></div>
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-amber-900/50 via-black to-black"></div>
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom,_var(--tw-gradient-stops))] from-amber-700/40 via-transparent to-transparent"></div>
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-amber-900/30 via-black to-black"></div>
       
       {/* Enhanced Animated Background Elements */}
       <motion.div 
@@ -89,8 +88,8 @@ export default function Home() {
         <motion.div 
           className="absolute top-1/4 left-1/4 w-96 h-96 bg-amber-400/20 rounded-full blur-3xl"
           animate={{ 
-            scale: [1, 1.2, 1],
-            opacity: [0.2, 0.3, 0.2]
+            scale: [1, 1.1, 1],
+            opacity: [0.2, 0.25, 0.2]
           }}
           transition={{ 
             duration: 4,
@@ -101,8 +100,8 @@ export default function Home() {
         <motion.div 
           className="absolute bottom-1/4 right-1/4 w-[32rem] h-[32rem] bg-amber-500/20 rounded-full blur-3xl"
           animate={{ 
-            scale: [1, 1.1, 1],
-            opacity: [0.2, 0.3, 0.2]
+            scale: [1, 1.05, 1],
+            opacity: [0.2, 0.25, 0.2]
           }}
           transition={{ 
             duration: 5,
@@ -128,15 +127,10 @@ export default function Home() {
         {/* Enhanced Floating Elements */}
         <div className="hidden sm:block absolute top-20 left-1/3 w-3 h-3 bg-amber-300/60 rounded-full animate-bounce delay-1000" style={{animationDuration: '3s'}}></div>
         <div className="hidden sm:block absolute top-40 right-1/4 w-2 h-2 bg-amber-300/60 rounded-full animate-pulse delay-700" style={{animationDuration: '2s'}}></div>
-        <div className="hidden sm:block absolute bottom-1/3 left-1/2 w-3 h-3 bg-amber-300/60 rounded-full animate-bounce delay-500" style={{animationDuration: '4s'}}></div>
         
-        {/* New Floating Elements */}
-        <div className="hidden sm:block absolute top-1/4 right-1/3 w-2 h-2 bg-red-300/60 rounded-full animate-float" style={{animationDuration: '5s'}}></div>
-        <div className="hidden sm:block absolute bottom-1/4 left-1/3 w-2 h-2 bg-red-300/60 rounded-full animate-float delay-300" style={{animationDuration: '4s'}}></div>
-        
-        {/* Sparkle Effects */}
+        {/* Sparkle Effects - Reduced from 20 to 8 */}
         <AnimatePresence>
-          {[...Array(20)].map((_, i) => (
+          {[...Array(8)].map((_, i) => (
             <motion.div
               key={i}
               className="absolute w-1 h-1 bg-amber-300/40 rounded-full"
@@ -451,6 +445,18 @@ export default function Home() {
               </motion.button>
             </motion.div>
           </motion.div>
+        </motion.div>
+
+        {/* Credit Footer */}
+        <motion.div 
+          className="absolute bottom-4 left-0 right-0 text-center"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.5, delay: 1 }}
+        >
+          <p className="text-red-300/60 text-xs font-light">
+            Developed by Christian Mark S Valle
+          </p>
         </motion.div>
       </motion.div>
     </div>
