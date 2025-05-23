@@ -1,6 +1,6 @@
 "use client"
 import React, { useState } from 'react';
-import { Sparkles, Star, Flower2, Clock, ArrowLeft } from 'lucide-react';
+import { Sparkles, Star, Flower2, Clock, ArrowLeft, Gift } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useRouter } from 'next/navigation';
 
@@ -90,7 +90,7 @@ export default function InsideInvitation() {
       case 'lists':
         return (
           <motion.div 
-            className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8"
+            className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.2 }}
@@ -133,6 +133,28 @@ export default function InsideInvitation() {
                       className="bg-red-500/10 rounded-lg p-2 sm:p-3 text-center hover:bg-red-500/20 transition-colors duration-200"
                     >
                       <span className="text-red-300 text-sm sm:text-base font-medium">Candle {index + 1}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            {/* 18 Treasures */}
+            <div className="relative">
+              <div className="relative bg-gradient-to-br from-black/90 via-red-950/50 to-black/90 backdrop-blur-sm rounded-2xl p-4 sm:p-6 md:p-8 border border-red-400/30">
+                <div className="flex items-center mb-4 sm:mb-6">
+                  <Gift className="text-red-400 w-6 h-6 sm:w-8 sm:h-8 mr-2 sm:mr-4" />
+                  <h3 className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-red-400 via-white to-red-400 bg-clip-text text-transparent">
+                    18 Treasures
+                  </h3>
+                </div>
+                <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-4">
+                  {[...Array(18)].map((_, index) => (
+                    <div 
+                      key={index} 
+                      className="bg-red-500/10 rounded-lg p-2 sm:p-3 text-center hover:bg-red-500/20 transition-colors duration-200"
+                    >
+                      <span className="text-red-300 text-sm sm:text-base font-medium">Treasure {index + 1}</span>
                     </div>
                   ))}
                 </div>
@@ -182,7 +204,7 @@ export default function InsideInvitation() {
           <div className="flex justify-center space-x-2 sm:space-x-4">
             {[
               { id: 'flow', label: 'Program Flow', icon: <Clock className="w-4 h-4 sm:w-5 sm:h-5" /> },
-              { id: 'lists', label: 'Candles & Roses', icon: <Sparkles className="w-4 h-4 sm:w-5 sm:h-5" /> }
+              { id: 'lists', label: 'Candles/Roses/Treasures', icon: <Sparkles className="w-4 h-4 sm:w-5 sm:h-5" /> }
             ].map((tab) => (
               <button
                 key={tab.id}
