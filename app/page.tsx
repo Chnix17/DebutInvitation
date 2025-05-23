@@ -4,6 +4,12 @@ import { Heart, Calendar, MapPin, Clock, Sparkles, Gift, ArrowRight } from 'luci
 import { useRouter } from 'next/navigation';
 import { routes } from './routes';
 import { motion, AnimatePresence } from 'framer-motion';
+import { Pacifico } from 'next/font/google';
+
+const pacifico = Pacifico({
+  weight: '400',
+  subsets: ['latin'],
+});
 
 export default function Home() {
   const router = useRouter();
@@ -265,7 +271,7 @@ export default function Home() {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.5, delay: 0.5 }}
               >
-                <h3 className="text-2xl sm:text-6xl lg:text-7xl font-bold bg-gradient-to-r from-red-500 via-amber-200 to-red-400 bg-clip-text text-transparent font-['Playfair_Display'] tracking-wide mb-2 sm:mb-6">
+                <h3 className="text-2xl sm:text-6xl lg:text-7xl font-bold bg-gradient-to-r from-red-500 via-amber-200 to-red-400 bg-clip-text text-transparent tracking-wide mb-2 sm:mb-6" style={{ fontFamily: pacifico.style.fontFamily }}>
                   Frencis @ 18
                 </h3>
                 
