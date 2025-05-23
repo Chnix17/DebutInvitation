@@ -104,13 +104,33 @@ export default function InsideInvitation() {
                     18 Roses
                   </h3>
                 </div>
-                <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-4">
-                  {[...Array(18)].map((_, index) => (
+                <div className="space-y-2 sm:space-y-3">
+                  {[
+                    "MILES GEROLAGA",
+                    "ERON JEFF LABRA",
+                    "MICHAEL DOLLETE",
+                    "CLARK KENT T. BATTALER",
+                    "KENVICS P. NAPOLES",
+                    "JOEMAR A. SAJULAN",
+                    "ADRIAN ORIBADO",
+                    "CYREL BANDICO",
+                    "JOSHUA TION",
+                    "HARVIE JAY QUISOL",
+                    "KRISTIAN KEITH PADAYHAG",
+                    "XYRN CAÑEZA",
+                    "DYMPSY MORGADES",
+                    "JHEMWELL MAGHUYOP",
+                    "OBERLYN MONTES",
+                    "JESILOU SUMAPIG",
+                    "JERICK TAMPIPI",
+                    "ROBINSON TAMPIPI"
+                  ].map((name, index) => (
                     <div 
                       key={index} 
-                      className="bg-red-500/10 rounded-lg p-2 sm:p-3 text-center hover:bg-red-500/20 transition-colors duration-200"
+                      className="bg-red-500/10 rounded-lg p-3 sm:p-4 hover:bg-red-500/20 transition-all duration-300 hover:scale-[1.02] hover:shadow-lg hover:shadow-red-500/20 flex items-center"
                     >
-                      <span className="text-red-300 text-sm sm:text-base font-medium">Rose {index + 1}</span>
+                      <span className="text-red-400 font-bold mr-3 sm:mr-4 min-w-[2rem]">{index + 1}.</span>
+                      <span className="text-red-300 text-sm sm:text-base font-medium">{name}</span>
                     </div>
                   ))}
                 </div>
@@ -126,13 +146,33 @@ export default function InsideInvitation() {
                     18 Candles
                   </h3>
                 </div>
-                <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-4">
-                  {[...Array(18)].map((_, index) => (
+                <div className="space-y-2 sm:space-y-3">
+                  {[
+                    "NICOLE T. ORIBADO",
+                    "JIA LOU MAMULO",
+                    "JAIRA C. BUSLON",
+                    "JEAN ALEXA V. AÑASCO",
+                    "JENNY MACALOS",
+                    "SWEET PRINCESS LABAPIES",
+                    "HANNIZAH JOY PONCE",
+                    "SARAH MAE UDTOG",
+                    "NIKKA NIÑEZA",
+                    "KRIS JOY FUENTES",
+                    "NYA MAE MAGHUYOP",
+                    "CJ ANGELLY D. PUYALES",
+                    "MICAELA ORIBADO",
+                    "MARIELLE GARCIA",
+                    "KYLLA MAE R. LOPEZ",
+                    "JAZZEN DAVEBRIELLE SUMAPIG",
+                    "RHIA MAE PEDRAVERDE",
+                    "RICA MAE DELIMA"
+                  ].map((name, index) => (
                     <div 
                       key={index} 
-                      className="bg-red-500/10 rounded-lg p-2 sm:p-3 text-center hover:bg-red-500/20 transition-colors duration-200"
+                      className="bg-red-500/10 rounded-lg p-3 sm:p-4 hover:bg-red-500/20 transition-all duration-300 hover:scale-[1.02] hover:shadow-lg hover:shadow-red-500/20 flex items-center"
                     >
-                      <span className="text-red-300 text-sm sm:text-base font-medium">Candle {index + 1}</span>
+                      <span className="text-red-400 font-bold mr-3 sm:mr-4 min-w-[2rem]">{index + 1}.</span>
+                      <span className="text-red-300 text-sm sm:text-base font-medium">{name}</span>
                     </div>
                   ))}
                 </div>
@@ -148,13 +188,32 @@ export default function InsideInvitation() {
                     18 Treasures
                   </h3>
                 </div>
-                <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-4">
-                  {[...Array(18)].map((_, index) => (
+                <div className="space-y-2 sm:space-y-3">
+                  {[
+                    "JESSICA JEAN P. SUMAPIG",
+                    "BERNADETH R. MONTES",
+                    "SOLIDAD EMBOLODE",
+                    "NOEL SARINO JR.",
+                    "PETER",
+                    "JHONGKOY MORGADES",
+                    "MARLYN DAYSON",
+                    "CORAZON ORIBADO",
+                    "AI AI",
+                    "MERLY NIÑEZA",
+                    "JEAN TINAMPAY",
+                    "SONSON LEONES",
+                    "ELLIE BOY VASQUEZ",
+                    "LEMUEL TATOY",
+                    "JEAN MOLINA",
+                    "ARIEL OLORVIDA",
+                    "ROSALINA BUSLON"
+                  ].map((name, index) => (
                     <div 
                       key={index} 
-                      className="bg-red-500/10 rounded-lg p-2 sm:p-3 text-center hover:bg-red-500/20 transition-colors duration-200"
+                      className="bg-red-500/10 rounded-lg p-3 sm:p-4 hover:bg-red-500/20 transition-all duration-300 hover:scale-[1.02] hover:shadow-lg hover:shadow-red-500/20 flex items-center"
                     >
-                      <span className="text-red-300 text-sm sm:text-base font-medium">Treasure {index + 1}</span>
+                      <span className="text-red-400 font-bold mr-3 sm:mr-4 min-w-[2rem]">{index + 1}.</span>
+                      <span className="text-red-300 text-sm sm:text-base font-medium">{name}</span>
                     </div>
                   ))}
                 </div>
