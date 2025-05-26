@@ -9,18 +9,28 @@ export default function InsideInvitation() {
   const router = useRouter();
 
   const programFlow = [
-    { time: "5:00 PM", event: "Guest Arrival & Registration" },
-    { time: "5:30 PM", event: "Photo Gallery Viewing" },
-    { time: "6:00 PM", event: "Grand Entrance" },
-    { time: "6:15 PM", event: "Welcome Remarks" },
-    { time: "6:30 PM", event: "18 Candles Ceremony" },
-    { time: "7:00 PM", event: "18 Roses Dance" },
-    { time: "7:30 PM", event: "Dinner Service" },
-    { time: "8:00 PM", event: "Special Presentations" },
-    { time: "8:30 PM", event: "Live Entertainment" },
-    { time: "9:00 PM", event: "Social Dancing" },
-    { time: "10:00 PM", event: "Closing Remarks" }
+    { time: "", event: "Arrival of Guests" },
+    { time: "", event: "Welcome by Host" },
+    { time: "", event: "Entrance of Parents" },
+    { time: "", event: "Message from Father" },
+    { time: "", event: "Grand Entrance of Debutante" },
+    { time: "", event: "18 Roses" },
+    { time: "", event: "Intermission: Jaira Buslon" },
+    { time: "", event: "18 Treasures" },
+    { time: "", event: "18 Candles" },
+    { time: "", event: "Birthday Song" },
+    { time: "", event: "Cake Cutting (offered to parents)" },
+    { time: "", event: "Intermission: Harvie Jay Quisol" },
+    { time: "", event: "Debutante's Message" },
+    { time: "", event: "Prayer – Mrs. Merly Dayson" },
+    { time: "", event: "Dinner" },
+    { time: "", event: "Photo Op (Family, Relatives, Friends)" },
+    { time: "", event: "Trivia Time (with prizes!)" },
+    { time: "", event: "18 Shots" },
+    { time: "", event: "Closing Remarks" },
+    { time: "", event: "Dance the Night Away!" }
   ];
+  
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -306,7 +316,7 @@ export default function InsideInvitation() {
           <div className="flex justify-center space-x-2 sm:space-x-4">
             {[
               { id: 'flow', label: 'Program Flow', icon: <Clock className="w-4 h-4 sm:w-5 sm:h-5" /> },
-              { id: 'lists', label: 'Candles/Roses/Treasures', icon: <Sparkles className="w-4 h-4 sm:w-5 sm:h-5" /> }
+              { id: 'lists', label: 'Candles/Roses/Treasures/Shots', icon: <Sparkles className="w-4 h-4 sm:w-5 sm:h-5" /> }
             ].map((tab) => (
               <button
                 key={tab.id}
