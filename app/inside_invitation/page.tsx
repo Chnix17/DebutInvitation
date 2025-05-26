@@ -79,11 +79,7 @@ export default function InsideInvitation() {
                       className="flex items-start space-x-2 sm:space-x-3 md:space-x-4"
                       variants={itemVariants}
                     >
-                      <div className="flex-shrink-0 w-16 sm:w-20 md:w-24">
-                        <div className="bg-red-500/20 rounded-lg p-1 text-center">
-                          <span className="text-red-300 text-xs sm:text-sm md:text-base font-medium">{item.time}</span>
-                        </div>
-                      </div>
+
                       <div className="flex-grow">
                         <div className="flex items-center">
                           <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 md:w-3 md:h-3 bg-red-400 rounded-full mr-1.5 sm:mr-2 md:mr-3" />
