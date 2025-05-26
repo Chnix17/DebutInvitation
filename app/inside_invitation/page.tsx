@@ -108,20 +108,20 @@ export default function InsideInvitation() {
                   {[
                     "MILES GEROLAGA",
                     "ERON JEFF LABRA",
-                    "MICHAEL DOLLETE",
+                    "JOSHUA TION",
                     "CLARK KENT T. BATTALER",
                     "KENVICS P. NAPOLES",
                     "JOEMAR A. SAJULAN",
                     "ADRIAN ORIBADO",
-                    "CYREL BANDICO",
-                    "JOSHUA TION",
-                    "HARVIE JAY QUISOL",
-                    "KRISTIAN KEITH PADAYHAG",
-                    "XYRN CAÑEZA",
-                    "DYMPSY MORGADES",
                     "JHEMWELL MAGHUYOP",
+                    "JUNIOR TALAGSA",
+                    "HARVIE JAY QUISOL",
+                    "JOSEPH A. TABAY",
+                    "DYMPSY MORGADES",
+                    "GARED RUMITARES",
+                    "CYREL BANDICO",
+                    "JC DUCO",
                     "OBERLYN MONTES",
-                    "JESILOU SUMAPIG",
                     "JERICK TAMPIPI",
                     "ROBINSON TAMPIPI"
                   ].map((name, index) => (
@@ -153,19 +153,19 @@ export default function InsideInvitation() {
                     "JAIRA C. BUSLON",
                     "JEAN ALEXA V. AÑASCO",
                     "JENNY MACALOS",
-                    "SWEET PRINCESS LABAPIES",
-                    "HANNIZAH JOY PONCE",
-                    "SARAH MAE UDTOG",
                     "NIKKA NIÑEZA",
+                    "MIMILANIE L. ALMARIO",
+                    "SARAH MAE UDTOG",
+                    "RHIA MAE PEDRAVERDE",
                     "KRIS JOY FUENTES",
-                    "NYA MAE MAGHUYOP",
+                    "RICA MAE DELIMA",
                     "CJ ANGELLY D. PUYALES",
                     "MICAELA ORIBADO",
                     "MARIELLE GARCIA",
-                    "KYLLA MAE R. LOPEZ",
-                    "JAZZEN DAVEBRIELLE SUMAPIG",
-                    "RHIA MAE PEDRAVERDE",
-                    "RICA MAE DELIMA"
+                    "JAZZEN DAVEBRIEL SUMAPIG",
+                    "NORIE JOY ANTOLIN",
+                    "JULIENE CLAIRE CAMATURA",
+                    "ROSA MARIA TAMPIPI"
                   ].map((name, index) => (
                     <div 
                       key={index} 
@@ -194,19 +194,62 @@ export default function InsideInvitation() {
                     "BERNADETH R. MONTES",
                     "SOLIDAD EMBOLODE",
                     "NOEL SARINO JR.",
-                    "PETER",
+                    "PETER ANO",
                     "JHONGKOY MORGADES",
                     "MARLYN DAYSON",
                     "CORAZON ORIBADO",
-                    "AI AI",
+                    "IRISH PRESORES",
                     "MERLY NIÑEZA",
                     "JEAN TINAMPAY",
                     "SONSON LEONES",
+                    "ROSITA MAGHUYOP",
                     "ELLIE BOY VASQUEZ",
                     "LEMUEL TATOY",
-                    "JEAN MOLINA",
+                    "JEANNIFER MOLINA",
                     "ARIEL OLORVIDA",
                     "ROSALINA BUSLON"
+                  ].map((name, index) => (
+                    <div 
+                      key={index} 
+                      className="bg-red-500/10 rounded-lg p-3 sm:p-4 hover:bg-red-500/20 transition-all duration-300 hover:scale-[1.02] hover:shadow-lg hover:shadow-red-500/20 flex items-center"
+                    >
+                      <span className="text-red-400 font-bold mr-3 sm:mr-4 min-w-[2rem]">{index + 1}.</span>
+                      <span className="text-red-300 text-sm sm:text-base font-medium">{name}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            {/* 18 Shots */}
+            <div className="relative">
+              <div className="relative bg-gradient-to-br from-black/90 via-red-950/50 to-black/90 backdrop-blur-sm rounded-2xl p-4 sm:p-6 md:p-8 border border-red-400/30">
+                <div className="flex items-center mb-4 sm:mb-6">
+                  <Star className="text-red-400 w-6 h-6 sm:w-8 sm:h-8 mr-2 sm:mr-4" />
+                  <h3 className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-red-400 via-white to-red-400 bg-clip-text text-transparent">
+                    18 Shots
+                  </h3>
+                </div>
+                <div className="space-y-2 sm:space-y-3">
+                  {[
+                    "JAIRA C. BUSLON",
+                    "JIA LOU MAMULO",
+                    "NICOLE T. ORIBADO",
+                    "JEAN ALEXA V. AÑASCO",
+                    "NIKKA NIÑEZA",
+                    "KENVICS P. NAPOLES",
+                    "CYREL BANDICO",
+                    "ERON JEFF LABRA",
+                    "RICA MAE DELIMA",
+                    "MILES GEROLAGA",
+                    "MARZEN JULEANNE S. ALE",
+                    "RHIA MAE PEDRAVERDE",
+                    "JOSHUA TION",
+                    "CLARK KENT T. BATTALER",
+                    "JHEMWELL MAGHUYOP",
+                    "JOEMAR A. SAJULAN",
+                    "DYMPSY MORGADES",
+                    "HARVIE JAY QUISOL"
                   ].map((name, index) => (
                     <div 
                       key={index} 
