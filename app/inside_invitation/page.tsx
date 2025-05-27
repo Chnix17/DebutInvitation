@@ -120,17 +120,18 @@ export default function InsideInvitation() {
                     "JOEMAR A. SAJULAN",
                     "ADRIAN ORIBADO",
                     "JHEMWELL MAGHUYOP",
-                    "JUNIOR TALAGSA",
+                    "DYMPSY MORGADES",
                     "HARVIE JAY QUISOL",
                     "JOSEPH A. TABAY",
-                    "DYMPSY MORGADES",
                     "GARED RUMITARES",
-                    "CYREL BANDICO",
                     "JC DUCO",
+                    "CYREL BANDICO",
                     "OBERLYN MONTES",
+                    "JESILOU SUMAPIG",
                     "JERICK TAMPIPI",
                     "ROBINSON TAMPIPI"
-                  ].map((name, index) => (
+                  ]
+                  .map((name, index) => (
                     <div 
                       key={index} 
                       className="bg-red-500/10 rounded-lg p-3 sm:p-4 hover:bg-red-500/20 transition-all duration-300 hover:scale-[1.02] hover:shadow-lg hover:shadow-red-500/20 flex items-center"
@@ -154,25 +155,26 @@ export default function InsideInvitation() {
                 </div>
                 <div className="space-y-2 sm:space-y-3">
                   {[
-                    "NICOLE T. ORIBADO",
-                    "JIA LOU MAMULO",
-                    "JAIRA C. BUSLON",
-                    "JEAN ALEXA V. AÑASCO",
-                    "JENNY MACALOS",
-                    "NIKKA NIÑEZA",
-                    "MIMILANIE L. ALMARIO",
-                    "SARAH MAE UDTOG",
-                    "RHIA MAE PEDRAVERDE",
-                    "KRIS JOY FUENTES",
-                    "RICA MAE DELIMA",
-                    "CJ ANGELLY D. PUYALES",
-                    "MICAELA ORIBADO",
-                    "MARIELLE GARCIA",
-                    "JAZZEN DAVEBRIEL SUMAPIG",
-                    "NORIE JOY ANTOLIN",
-                    "JULIENE CLAIRE CAMATURA",
-                    "ROSA MARIA TAMPIPI"
-                  ].map((name, index) => (
+                      "NICOLE T. ORIBADO",
+                      "JIA LOU MAMULO",
+                      "JAIRA C. BUSLON",
+                      "JEAN ALEXA V. AÑASCO",
+                      "JENNY MACALOS",
+                      "NIKKA NIÑEZA",
+                      "MIMILANIE ALMARIO",
+                      "SARAH MAE UDTOG",
+                      "RHIA MAE PEDRAVERDE",
+                      "KRIS JOY FUENTES",
+                      "RICA MAE DELIMA",
+                      "CJ ANGELLY D. PUYALES",
+                      "MICAELA ORIBADO",
+                      "MARIELLE GARCIA",
+                      "JAZZEN DAVEBRIEL SUMAPIG",
+                      "NORIE JOY ANTOLIN",
+                      "JULIENE CLAIRE CAMATURA",
+                      "ROSA MARIA TAMPIPI"
+                    ]
+                    .map((name, index) => (
                     <div 
                       key={index} 
                       className="bg-red-500/10 rounded-lg p-3 sm:p-4 hover:bg-red-500/20 transition-all duration-300 hover:scale-[1.02] hover:shadow-lg hover:shadow-red-500/20 flex items-center"
@@ -196,25 +198,26 @@ export default function InsideInvitation() {
                 </div>
                 <div className="space-y-2 sm:space-y-3">
                   {[
-                    "JESSICA JEAN P. SUMAPIG",
-                    "BERNADETH R. MONTES",
-                    "SOLIDAD EMBOLODE",
-                    "NOEL SARINO JR.",
-                    "PETER ANO",
-                    "JHONGKOY MORGADES",
-                    "MARLYN DAYSON",
-                    "CORAZON ORIBADO",
-                    "IRISH PRESORES",
-                    "MERLY NIÑEZA",
-                    "JEAN TINAMPAY",
-                    "SONSON LEONES",
-                    "ROSITA MAGHUYOP",
-                    "ELLIE BOY VASQUEZ",
-                    "LEMUEL TATOY",
-                    "JEANNIFER MOLINA",
-                    "ARIEL OLORVIDA",
-                    "ROSALINA BUSLON"
-                  ].map((name, index) => (
+                      "JESSICA JEAN P. SUMAPIG",
+                      "BERNADETH R. MONTES",
+                      "SOLIDAD EMBOLODE",
+                      "NOEL SARINO JR.",
+                      "PETER ANO",
+                      "JHONGKOY MORGADES",
+                      "MARLYN DAYSON",
+                      "CORAZON ORIBADO",
+                      "IRISH PRESORES",
+                      "MERLY NIÑEZA",
+                      "JEAN TINAMPAY",
+                      "SONSON LEONES",
+                      "ROSITA MAGHUYOP", // This is your missing #13
+                      "ELLIE BOY VASQUEZ",
+                      "LEMUEL TATOY",
+                      "JENNIFER MOLINA",
+                      "ARIEL OLORVIDA",
+                      "ROSALINA BUSLON"
+                    ]
+                    .map((name, index) => (
                     <div 
                       key={index} 
                       className="bg-red-500/10 rounded-lg p-3 sm:p-4 hover:bg-red-500/20 transition-all duration-300 hover:scale-[1.02] hover:shadow-lg hover:shadow-red-500/20 flex items-center"
@@ -249,14 +252,15 @@ export default function InsideInvitation() {
                     "RICA MAE DELIMA",
                     "MILES GEROLAGA",
                     "MARZEN JULEANNE S. ALE",
-                    "RHIA MAE PEDRAVERDE",
+                    "JUSTENE KATE ALIMAMA",
                     "JOSHUA TION",
                     "CLARK KENT T. BATTALER",
                     "JHEMWELL MAGHUYOP",
                     "JOEMAR A. SAJULAN",
                     "DYMPSY MORGADES",
                     "HARVIE JAY QUISOL"
-                  ].map((name, index) => (
+                  ]
+                  .map((name, index) => (
                     <div 
                       key={index} 
                       className="bg-red-500/10 rounded-lg p-3 sm:p-4 hover:bg-red-500/20 transition-all duration-300 hover:scale-[1.02] hover:shadow-lg hover:shadow-red-500/20 flex items-center"
